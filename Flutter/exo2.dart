@@ -19,10 +19,9 @@ class MyApp extends StatelessWidget {
               Container(
                 width: 300,
                 height: 100,
-                color: Colors.red,
                 decoration: BoxDecoration(
+                  color: Colors.red,
                   border: Border.all(
-                  color: const Color.fromARGB(255, 0, 0, 0),
                   width: 4.0,),
                  ),
                 child: const Center(
@@ -32,10 +31,9 @@ class MyApp extends StatelessWidget {
               Container(
                 width: 600,
                 height: 100,
-                color: Colors.green,
                 decoration: BoxDecoration(
+                  color: Colors.green,
                   border: Border.all(
-                  color: const Color.fromARGB(255, 0, 0, 0),
                   width: 4.0,)
                  ),
                  child: const Center(
@@ -45,10 +43,9 @@ class MyApp extends StatelessWidget {
               Container(
                 width: 1000,
                 height: 100,
-                color: Colors.blue,
                 decoration: BoxDecoration(
+                  color: Colors.blue,
                   border: Border.all(
-                  color: const Color.fromARGB(255, 0, 0, 0),
                   width: 4.0,)
                  ),
                 child: const Center(
