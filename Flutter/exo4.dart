@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Container(
-                width: 300,
+                width: 100,
                 height: 100,
                 decoration: BoxDecoration(
                   color: const Color.fromARGB(255, 255, 255, 255),
@@ -30,58 +30,81 @@ class MyApp extends StatelessWidget {
                     Container(
                       width: 100,
                       height: 100,
-                      color: Colors.red,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         border: Border.all(
                         width: 4.0,)
                       ),
                       child: const Center(
-                        child: Text('Premier'),
+                        child: Text('1-1'),
                       )
                     ),
                     Container(
-                      width: 300,
+                      width: 100,
                       height: 100,
-                      color: Colors.green,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         border: Border.all(
                         width: 4.0,)
                       ),
                       child: const Center(
-                              child: Text('Deuxieme'),
+                              child: Text('1-2'),
+                      )
+                    ),
+                    Container(
+                      width: 100,
+                      height: 100,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        border: Border.all(
+                        width: 4.0,)
+                      ),
+                      child: const Center(
+                              child: Text('1-3'),
                       )
                     ),
                   ],
               ),
-              child: Row(
+              
+            ),
+            Container(
+            child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Container(
                       width: 100,
                       height: 100,
-                      color: Colors.red,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         border: Border.all(
                         width: 4.0,)
                       ),
                       child: const Center(
-                        child: Text('Premier'),
+                        child: Text('2-1'),
                       )
                     ),
                     Container(
-                      width: 300,
+                      width: 100,
                       height: 100,
-                      color: Colors.green,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         border: Border.all(
                         width: 4.0,)
                       ),
                       child: const Center(
-                              child: Text('Deuxieme'),
+                              child: Text('2-2'),
+                      )
+                    ),
+                    Container(
+                      width: 100,
+                      height: 100,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        border: Border.all(
+                        width: 4.0,)
+                      ),
+                      child: const Center(
+                        child: Text('2-3'),
                       )
                     ),
                   ],
@@ -94,4 +117,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
