@@ -20,8 +20,8 @@ class MyRow extends StatelessWidget {
         Container(
           width: 100,
           height: 100,
-          color: Colors.red,
           decoration: BoxDecoration(
+          color: Colors.red,
             borderRadius: BorderRadius.circular(10),
             border: Border.all(
             width: 4.0,)
@@ -33,8 +33,8 @@ class MyRow extends StatelessWidget {
         Container(
           width: 300,
           height: 100,
-          color: Colors.green,
           decoration: BoxDecoration(
+          color: Colors.green,
             borderRadius: BorderRadius.circular(10),
             border: Border.all(
             width: 4.0,)
@@ -46,8 +46,8 @@ class MyRow extends StatelessWidget {
         Container(
           width: 600,
           height: 100,
-          color: Colors.blue,
           decoration: BoxDecoration(
+          color: Colors.blue,
             borderRadius: BorderRadius.circular(10),
             border: Border.all(
             width: 4.0,)

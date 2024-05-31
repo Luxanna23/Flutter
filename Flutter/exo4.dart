@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Centered Column Example'),
+          title: Text('app'),
         ),
         body: Center(
           child: Column(
